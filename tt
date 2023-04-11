@@ -1,0 +1,3 @@
+[34m[1mwandb: [0mInstall Weights & Biases for YOLOR logging with 'pip install wandb' (recommended)
+
+[34m[1mautoanchor: [0mAnalyzing anchors... anchors/target = 5.33, Best Possible Recall (BPR) = 0.9998

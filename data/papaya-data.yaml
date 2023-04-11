@@ -1,0 +1,18 @@
+
+train: data/Treino.txt
+val: data/Validacao.txt
+test: data/Teste.txt
+
+# number of classes
+nc: 9
+
+# class names
+names: [ 'Papaya',
+'Anthracnose',
+'Phytophthora_Blight',
+'M_Damage',
+'Chocolate_Spot',
+'Sticky_Disease',
+'Physiological_spot',
+'Black_spot',
+'Scar' ]
