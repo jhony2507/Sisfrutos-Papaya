@@ -54,7 +54,7 @@
 
 
 
-<img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Results.png height=400 e width=700>
+<img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Results.png height=229 e width=567>
 
 
 ## How to use
