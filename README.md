@@ -66,18 +66,47 @@
 - To test all images in a folder:
       
       python3 detect.py  --source samples/TT000001-6.jpg --weights weights/w-yolo-papaya.pt --conf_thres=0.15 --img 448
+     
+- Optional parameters:
 
-- To test all images in a folder:
-    python3 detect.py  --source samples/ --weights weights/w-yolo-papaya.pt --conf_thres=0.15 --img 448
-      
- - Pptional parameters:
    -project [PROJECT] : Defines the path of the main folder where the results will be saved (default = runs/detect)
 
    -name [name] : Defines the name of the folder (below PROJECT) where the experiments will be saved (default = exp)
    
    -conf_thres [value] : Confidence threshold
 
-## Inferences
+- To calculate the mAP of all classes in the test or validation set:
+
+      python3 test.py --task=test --data data/papaya-data.yaml --img 448 --device 0 --weights weights/w-yolo-papaya.pt 
+
+ where,   
+```
+    -task    : defines the set to be used in the experiment (test or val)
+    -data    : file with the classes and the path location of the test or validation file
+    -weights : weights file
+```
+## Training
+
+- Using pre-trained weights: 
+
+      python3 train.py  --cfg cfg/CBAM.yaml --data data/papaya-data.yaml --hyp cfg/hyperparamet.papaya.yaml --img 448  --name xxx  --weights weights/w-yolo-papaya.pt
+     
+ where,   
+ 
+```
+  --cfg : Indicates the network configuration file
+  --data : Indicates the file with the classes and location of the training/validation and test files
+  --hyp  : file with hyperparameters
+  --img  : image size
+  --name : Name of the new network
+  --weights : used weights file
+```
+    
+- For training from scratch: 
+
+      python3 train.py  --cfg cfg/CBAM.yaml --data data/papaya-data.yaml --hyp cfg/hyperparamet.papaya.yaml --img 448  --name xxx  --weights ``
+     
+     
 -  Description: Complete base composed of 23.153 images with the following class distributions:
 <img src=https://github.com/jhony2507/Base_doencas_mamao/blob/main/classes.png height=300 e width=450>
 
