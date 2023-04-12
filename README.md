@@ -4,11 +4,6 @@
 
 
 ### Requirements
-- Nossa implementaçÃo usa como base a estrutura original da Yolov7 disponibilizado em https://github.com/WongKinYiu/yolov7. As principais alterações estão centralizadas nos seguintes arquivos:
-  - yolo.py : Chamadas para o modolo de atenção CBAM
-  - models/common.py : Implementação do modulo CBAM
-  - papaya-cbam, papaya-data, papaya-hyp : Estrutura rede criada, dados, e parametros.
- 
 - Ubuntu 20.04
 - Cuda 11.7
 - Cudnn 8.0
@@ -45,6 +40,30 @@
      apt install -y zip htop screen libgl1-mesa-glx
      pip install seaborn thop
      pip install -r requirements.txt
+     
+- Our template is based on the original Yolov7 framework available at https://github.com/WongKinYiu/yolov7. 
+
+````
+
+## Results
+
+- Expected result for the test set
+
+
+
+- Expected result for the Validation set
+
+````
+              Papaya        1753         736       0.915       0.984       0.987       0.795
+         Anthracnose        1753         110       0.864       0.973       0.986       0.622
+ Phytophthora_Blight        1753          21       0.962       0.905       0.907        0.57
+            M_Damage        1753         107       0.818       0.841       0.884       0.484
+      Chocolate_Spot        1753         263       0.797       0.868       0.901       0.434
+      Sticky_Disease        1753          22       0.999         0.5       0.815       0.329
+  Physiological_spot        1753         151       0.776       0.669       0.772       0.303
+          Black_spot        1753         466       0.793       0.659       0.797       0.334
+                Scar        1753         444       0.749       0.698       0.785        0.36
+
 ```
 
 <img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Results.png height=400 e width=700>
