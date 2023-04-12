@@ -132,14 +132,14 @@ In an effort to broaden the accessibility of the new dataset to a wider range of
  
   The figure below shows an example. (a)-Image TR00001-4.jpg, (b)-Contents of the TR00001-4.txt file. The first line indicates the location and size of a 'Papaya' object (Id: 0), the second line indicates the coordinates and size of a 'chocolate spot' object (id:4). 
 
-<img src=https://github.com/jhony2507/Base_doencas_mamao/blob/main/Exemplo_anotacao_TXT.png height=380 e width=300>
+<img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Exemplo_anotacao_TXT.png height=480 e width=400>
       
 #### COCO Format      
 The instances annotations of each object is composed of a basic data structure that contains a series of fields with information about the image, annotations and classes (categories). The storage in the form of structured records allows using a single json file to store the annotations of an entire data set.
 
   The figure below show partial annotations in Coco format for image TR00001-4.jpg 
   
-<img src=https://github.com/jhony2507/Base_doencas_mamao/blob/main/Exemplo_anotacao_coco.png height=780 e width=550>
+<img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Exemplo_anotacao_coco.png height=780 e width=550>
 
  
 ### License to use and download
