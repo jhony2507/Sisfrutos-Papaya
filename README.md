@@ -109,6 +109,23 @@ Early detection of diseases in fruits is essential to mitigate production losses
      
 ## Datasets
 
+Our dataset consists of 23,158 examples spread over 17,949 images. File naming is as follows:
+
+XXNNNNNN-C-C....jpg
+
+where:
+- XX     : Indicates whether the image belongs to the training (TR), test (TT) or validation (VA) set;
+- NNNNNN : Sequential number
+- -C-C   : Code of the class(es) that appear in the image.
+
+Example:
+
+- TT000009-8.jpg     : Image of the TEST set with an instance of the "Scar" class (8)
+- TT000582-8-7-7.jpg : Image of the TEST set with one occurrence of the "Scar" class (8) and two occurrences of the "Black Spot " class (7)
+
+The dataset is unbalanced, and follows the following distribution across classes:
+
+
 <img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Classes.png height=400 e width=800>
 
 
