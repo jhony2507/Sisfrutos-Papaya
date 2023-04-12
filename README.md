@@ -15,7 +15,7 @@
 - OpenCV 4.5
 
 ### Requirements Extras
-
+```
 #### Base ----------------------------------------
 - matplotlib>=3.2.2
 - numpy>=1.18.5,<1.24.0
@@ -45,17 +45,13 @@
      apt install -y zip htop screen libgl1-mesa-glx
      pip install seaborn thop
      pip install -r requirements.txt
+```
+## Weights and results of the tested models
 
-## Pesos e resutados dos modelos testados
 
 <img src=https://github.com/jhony2507/Base_doencas_mamao/blob/main/classes.png height=300 e width=450>
 
 
-### inference
-      sh test.sh <nomeImage)
-
-### Train model with new images using pre-trained weights
-     ./darknet detector train data/obj.data cfg/yolov4.cfg papaya.weights -map
 
 ## How to use
 
