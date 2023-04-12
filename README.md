@@ -46,10 +46,8 @@
      pip install seaborn thop
      pip install -r requirements.txt
 ```
-## Weights and results of the tested models
 
-<img src=https://github.com/jhony2507/Sisfrutos-Papaya/img/Results.png height=300 e width=450>
-
+<img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Results.png height=400 e width=700>
 
 
 ## How to use
@@ -101,8 +99,8 @@
 
       python3 train.py  --cfg cfg/CBAM.yaml --data data/papaya-data.yaml --hyp cfg/hyperparamet.papaya.yaml --img 448  --name xxx  --weights ``
      
-     
--  Description: Complete base composed of 23.153 images with the following class distributions:
+## Datasets
+
 <img src=https://github.com/jhony2507/Base_doencas_mamao/blob/main/classes.png height=300 e width=450>
 
 
