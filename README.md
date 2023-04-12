@@ -75,6 +75,7 @@
    
    -conf_thres [value] : Confidence threshold
 
+
 - To calculate the mAP of all classes in the test or validation set:
 
       python3 test.py --task=test --data data/papaya-data.yaml --img 448 --device 0 --weights weights/w-yolo-papaya.pt 
