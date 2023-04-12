@@ -101,11 +101,9 @@
      
 ## Datasets
 
-<img src=https://github.com/jhony2507/Base_doencas_mamao/blob/main/classes.png height=300 e width=450>
+<img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Classes.png height=400 e width=800>
 
 
--  Size file   : ~1gb
--  
 ### Annotations
 
 #### Txt Format:
@@ -152,9 +150,10 @@ Send an email to artsoft.lucas@terra.com.br informing:
 - Linked institution:
 - Search where the dataset will be used.
 
-[Sisfrutos Dataset](https://drive.google.com/drive/folders/1GhCxUPzlfXBJRIXsuwiDwkZY8aNduu1_)
-
-[Samples for inference](https://drive.google.com/drive/folders/151dIcYDCCE-e-TZC2sTSLh2G0LEDvoe9)
+-  Dataset Train (~1 Gb)        : https://drive.google.com/drive/folders/1L05x6ARfebJNMqdfQFDJbyKw2ydt3Q-P?usp=share_link
+-  Dataset Test (~110 Mb)       : https://drive.google.com/drive/folders/1lXTXwdYmBD0nVdeAjrR0U2cjgpC6L5NT?usp=share_link
+-  Dataset Validation (~110 Mb) : https://drive.google.com/drive/folders/1wpzrRLqEmemdkQ7HjMICxgWiVDlyDSJl?usp=share_link
+-  http
 
 
 
