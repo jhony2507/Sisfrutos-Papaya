@@ -40,31 +40,19 @@
      apt install -y zip htop screen libgl1-mesa-glx
      pip install seaborn thop
      pip install -r requirements.txt
+```
      
-- Our template is based on the original Yolov7 framework available at https://github.com/WongKinYiu/yolov7. 
+ 	- Our template is based on the original Yolov7 framework available at https://github.com/WongKinYiu/yolov7. 
 
-````
 
 ## Results
 
 - Expected result for the test set
 
 
+<img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/ResultPerClass.png height=671 e width=891>
 
-- Expected result for the Validation set
 
-````
-              Papaya        1753         736       0.915       0.984       0.987       0.795
-         Anthracnose        1753         110       0.864       0.973       0.986       0.622
- Phytophthora_Blight        1753          21       0.962       0.905       0.907        0.57
-            M_Damage        1753         107       0.818       0.841       0.884       0.484
-      Chocolate_Spot        1753         263       0.797       0.868       0.901       0.434
-      Sticky_Disease        1753          22       0.999         0.5       0.815       0.329
-  Physiological_spot        1753         151       0.776       0.669       0.772       0.303
-          Black_spot        1753         466       0.793       0.659       0.797       0.334
-                Scar        1753         444       0.749       0.698       0.785        0.36
-
-```
 
 <img src=https://github.com/jhony2507/Sisfrutos-Papaya/blob/main/img/Results.png height=400 e width=700>
 
@@ -125,6 +113,8 @@
 
 ### Annotations
 
+In an effort to broaden the accessibility of the new dataset to a wider range of re-searchers in the field, we have included annotations in two widely employed standards for state-of-the-art (SOTA) classifiers in the object detection task.
+
 #### Txt Format:
  - Each image (.jpg) has its respective .txt file. For example, image TR00001-4.jpg is related to file TR00001-4.txt; 
  - Each line of the .txt file describes an object that appears in the respective image; 
@@ -169,17 +159,10 @@ Send an email to artsoft.lucas@terra.com.br informing:
 - Linked institution:
 - Search where the dataset will be used.
 
+#### Download
+
 -  Dataset Train (~1 Gb)        : https://drive.google.com/drive/folders/1L05x6ARfebJNMqdfQFDJbyKw2ydt3Q-P?usp=share_link
 -  Dataset Test (~110 Mb)       : https://drive.google.com/drive/folders/1lXTXwdYmBD0nVdeAjrR0U2cjgpC6L5NT?usp=share_link
 -  Dataset Validation (~110 Mb) : https://drive.google.com/drive/folders/1wpzrRLqEmemdkQ7HjMICxgWiVDlyDSJl?usp=share_link
--  http
 
 
-
-# Comments
-
-The poor performance in detecting the Black Spot class surprised us, as it has very striking visual characteristics, which should favor the neural network. Upon further investigation, we detected that the poor performance is related to how, in some cases, the disease was noted in the ground truth. Black spot can occur in several disjoint regions of the fruit (several instances of the “Black Spot” class), but often the evaluator marks a large region of the fruit as being a single instance of that class. This makes the network detect multiple instances of this class outside the ground truth bound box. The images below exemplify this situation.
-
-We are reviewing the notes of this class, and this review, as well as the results will be available on the project page. 
-
-<img src=https://github.com/jhony2507/Base_doencas_mamao/blob/main/wrong_notes.png height=400 e width=650>
