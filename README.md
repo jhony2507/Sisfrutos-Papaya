@@ -48,7 +48,7 @@
 ```
 ## Weights and results of the tested models
 
-<img src=https://github.com/jhony2507/Sisfrutos-Papaya/img/results.png height=300 e width=450>
+<img src=https://github.com/jhony2507/Sisfrutos-Papaya/img/Results.png height=300 e width=450>
 
 
 
