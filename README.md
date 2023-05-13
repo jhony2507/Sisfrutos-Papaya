@@ -2,6 +2,9 @@
 
 Early detection of diseases in fruits is essential to mitigate production losses and ensure the quality and health of the fruits offered to end consumers. Due to the peculiarities of this domain, such as the high intra-class variability and the lack of public datasets with the required number of examples for use in state-of-the-art neural networks, disease detection in fruits is still a challenging problem for computer vision. In this work, we propose Yolo-Papaya, a robust disease detector based on YoloV7, which uses a Convolutional Block Attention Module (CBAM) mechanism to reduce information redundancy between channels and focus on the most relevant regions of the feature map. We also present a dataset of papaya fruit images with over 23,000 examples divided into nine disease classes with multi-class and multi-instance annotations. The proposed detector achieved a robust improvement compared to other tested neural networks, with an average mAP score of 86.4%, without significant increases in inference time and neural network memory consumption.
 
+##
+Published work:
+https://www.mdpi.com/2079-9292/12/10/2202/htm
 
 ### Requirements
 - Ubuntu 20.04
