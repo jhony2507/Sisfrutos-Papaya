@@ -176,9 +176,10 @@ That you may not use the dataset or any derivative work for commercial purposes 
 
 Send an email to artsoft.lucas@terra.com.br informing:
 - Name:
+- Country: 
 - Office:
 - Linked institution:
-- Search where the dataset will be used.
+- Briefly describe how the dataset will be used:
 
 #### Download
 
