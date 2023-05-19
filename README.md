@@ -183,8 +183,8 @@ Send an email to artsoft.lucas@terra.com.br informing:
 
 #### Download
 
--  Dataset Train (~1 Gb)        : https://drive.google.com/drive/folders/1JMY7FYfRXf--5DqjR0gRFW1dbNvbdB82?usp=share_link
--  Dataset Test (~110 Mb)       : https://drive.google.com/drive/folders/170H-cycnQK5wmE9jAgWAfqOH_W3RT_OA?usp=share_link
--  Dataset Validation (~110 Mb) : https://drive.google.com/drive/folders/1SQZZYUf_xuz8Mw1gew3MqxAFqrJ5g_Ht?usp=share_link
+-  Dataset Train (~1 Gb)        : request the link
+-  Dataset Test (~110 Mb)       : request the link
+-  Dataset Validation (~110 Mb) : request the link
 
 
